@@ -1,0 +1,178 @@
+
+<h2>BLAST SEARCH</h2>
+<h2>I. Introduction</h2>
+<p>When  scientists discover a novel gene or protein, their ability to understand the  structure, function, and evolutionary lineage associated with that protein is  greatly assisted by the Basic Local Alignment Search Tool (BLAST). First  published in 1990 by Altschul et al., BLAST is a computer algorithm that looks  for the degree of similarity between an input DNA or protein sequence (the  query) and the numerous sequences stored in a database or set of databases.  Instead of trying to align the whole query sequence with an entire sequence  from the database (a &ldquo;global alignment&rdquo;), BLAST looks for matches between  portions of the query and portions of a database sequence to build a &ldquo;local  alignment.&rdquo; (This is analogous to searching the Internet using Google. If one  were to type a very long sentence into Google, one would get fewer results than  if a few short words were typed in.) This is incredibly advantageous to the  study of proteins, as proteins with similar functions generally share similar  domains while remaining divergent in sequence when considered as a whole. This  module explores the practical basics needed to use this invaluable tool for  bioinformatics. <br />
+</p>
+<h2>II. ORFs and Reading Frames</h2>
+<p>Before  discussing different types of BLAST searches, let&rsquo;s take stock of how the  nature of the genetic code impacts BLAST searching. A gene is comprised of  codons, sets of three consecutive nucleotides. Each codon encodes one amino  acid. A sequence of codons makes up what is called a reading frame. Double  stranded DNA can be read six possible ways and each way is unique.  Remember, there are two strands, each of  which can be read in the 5' --&gt; 3' direction. On each of these strands,  there are 3 possible places to start reading:   the 1st, 2nd, or 3rd nucleotide. Since there are three possibilities on  each strand there is a total of six possible reading frames. Only one of these  six reading frames will encode for a functional polypeptide. This correct <em>open reading frame</em> (ORF) will generally  be many codons long, and <em>must</em> have  only one stop codon encountered at the end of the frame. The other reading  frames will have multiple stop codons throughout the frame - these are known as  &quot;closed reading frames&quot;.   <br />
+  <br />
+  To  define a gene within a DNA sequence, scientists look for the open reading frame  (ORF) beginning with a start codon (usually ATG in <em>E. coli</em>, coding for methionine) and ending with one of three stop  codons (TGA, TAG, TAA). Finding an open reading frame within a nucleotide  sequence and the amino acid sequence encoded by it are often prerequisites for  the most common BLAST searches (BLASTp, see below) as well as for locating the  promoter and other extragenic sequences outside the ORF important for  transcription.   </p>
+<h2>III. Types of BLAST Commonly Used in Biology</h2>
+<ul type="disc">
+  <li><strong>BLASTn</strong> (nucleotide-to-nucleotide). <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">A nucleotide query is  aligned with a nucleotide database. The advantage of this approach is that  there are many genome databases available to search; more than 800  organisms have been sequenced since 1995! 
+
+<p><br />
+  A big  problem with BLASTn searches stems from the fact that the genetic code is  degenerate--most amino acids are encoded by several different codons. The  sequences of all genes &ldquo;drift&rdquo; during evolution, partly as a result of i)  silent mutations that change a codon without altering the amino acid encoded by  that codon, and ii) synonymous mutations, which result in coding for an amino  acid that is chemically very similar to the original amino acid, such as  leucine for isoleucine. Genetic drift can result in two nucleic acids that are  very different in sequence, yet produce identical or highly similar proteins.  Unless you&rsquo;re comparing nucleotide sequences between two organisms that are  very closely related, it is hard to identify a related gene in another organism  using BLASTn. </p>
+</div>
+</li>
+</ul>
+<ul type="disc">
+  <li><strong>BLASTp</strong> (protein-to-protein). <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">An amino acid query is aligned with sequences in a protein database. This is the most common BLAST search performed, as it is easier to find similarities between amino  acid sequences than nucleotide sequences subject to genetic drift. One  limitation of BLASTp searches is that there are far fewer sequenced  proteins available to search than sequenced genomes. Furthermore, if your  query sequence is part of a common protein domain found in many proteins  of distinct functions, establishing evolutionary lineages using that  domain can be very difficult.   
+</div></li>
+</ul>
+<ul type="disc">
+  <li><strong>BLASTx</strong> (translated nucleotide-to-protein).  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">A nucleotide query is translated by the computer in all six reading frames, and all six resulting amino acid sequences are aligned with a protein database. This  can be very useful if you&rsquo;re not sure which reading frame in a DNA  sequence encodes a gene, and translating the nucleotide query can  circumvent gaps in aligning two nucleotide sequences due to sequencing  errors. If the query is too large, however, you may retrieve protein  search results (also called BLAST &ldquo;hits&rdquo;) in multiple reading frames. 
+</div></li>
+</ul>
+<ul type="disc">
+  <li><strong>tBLASTn</strong> (protein-to-translated nucleotide).  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">A protein query is aligned with sequences in a DNA database that have been translated in all six reading frames. Essentially  the inverse of BLASTx, this approach is great for finding exons (protein  coding sequences) within a nucleotide database using the protein query as  a guide. 
+</div></li>
+</ul>
+<ul type="disc">
+  <li><strong>tBLASTx</strong> (translated nucleotide-to-translated nucleotide).  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">A nucleotide sequence is translated in all six reading frames and then aligned with a nucleotide database that has also  been translated in all six frames. While this is no longer computationally  intensive, aligning six queries with all six reading frames of database  sequences usually retrieves many hits that have to be carefully evaluated.  Finding a significant result may not be helpful if the database in  question is poorly annotated (i.e. little is known about the organism and  few proteins have been identified). 
+</div></li>
+</ul>
+<p>&nbsp;</p>
+<h2>IV. Performing a BLAST Search in EcoCyc</h2>
+<p>The <a target="_blank" href="http://biocyc.org/blast.html">EcoCyc  BLAST</a> program can be directly accessed on EcoCyc using the Search  pull-down menu at the top left of any EcoCyc page. </p>
+<p>Paste  nucleotide or protein query sequence in <u>FASTA</u> format into the  search window</p>
+<p>Select:</p>
+<ul type="disc">
+  <li>query type as either a nucleotide  or protein query 
+</li>
+  <li>database search as nucleotide or  protein database 
+</li>
+  <li>program (button can perform any  of the six BLAST searches listed above)
+</li>
+</ul>
+<p><u>FASTA</u> : each nucleotide or amino acid sequence is preceded by a greater than (&gt;)  symbol</p>
+<p>&nbsp;</p>
+<p>Options:</p>
+<ul type="disc">
+  <li>Change organisms for which  the search is performed  in the corner of the page under the Quick Search field (&ldquo;Searching Escherichia coli K-12 substr. MG1655&rdquo; is  the default). 
+</li>
+</ul>
+<ul type="disc">
+  <li>Advanced users can adjust the sensitivity of the BLAST search by changing the &ldquo;Expectation Value  Threshold,&rdquo; you&rsquo;ll only need to use the standard of 10 for the Exercises  provided in this module. Paste in your sequence and hit &ldquo;Search&rdquo;—you&rsquo;ll  see a report much like this one for a BLASTp search. 
+</li>
+</ul>
+<p>&nbsp;</p>
+<h2>V. Evaluating a BLAST Search</h2>
+<ul type="disc">
+  <li><strong>Score.</strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">The bit-score or score is a direct measure of similarity between the query and a search result  retrieved by the BLAST algorithm. The fewer gaps between matching regions  of the query and BLAST hit, the higher the score and the stronger the  alignment. In protein alignments, gaps arising from amino acids that are  chemically similar to but not identical with those in the query do not  lower the score as much, as these substituted amino acids are common  between related proteins in different organisms.  
+</div></li>
+</ul>
+<ul type="disc">
+  <li><strong>E-value.</strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">To have confidence in a  search result as good evidence for homology with the query, BLAST programs  evaluate each result for statistical significance using the expected  value, or E-value. An E-value is generated for each result by calculating  the number of random sequences expected to have a similar alignment score.  The lower the E-value, the more statistically significant the alignment  is; typically 10<sup>-5</sup> or lower is considered significant. A low  E-value (close to or equal to zero) implies that there is a low  probability that the hit between query and database is due to a random  match. 
+</div></li>
+</ul>
+<ul type="disc">
+  <li><strong>Homologs,  Paralogs, and Orthologs.</strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+    <div class="expandable">One of the strongest applications for BLAST searches  is identifying homologous or similar nucleotide or protein sequences,  particularly if the query sequence is novel. With a high score and low  E-value, one can place confidence in assigning function(s) to the novel  query sequence. The term <u>homolog</u> can refer to either a protein or  the gene that encodes it, as long as it has a sequence similarity to some  other known sequence. There are distinct terms for the two kinds of  homologs you&rsquo;ll frequently encounter in biology: i) <u>Orthologs</u>,  which are homologous sequences found in different organisms, and ii)  Paralogs, homologous sequences found within the same organism as a result  of a gene duplication event. <u>Paralogs</u> frequently have distinct  functions within the organism whereas orthologs tend to have the same  function in different organisms. While discovering orthologs can inform  you about functions that are conserved evolutionarily between species,  it&rsquo;s often exciting for scientists to elucidate different roles played by  paralogs within an organism, in many cases to conduct similar functions  under differing growth conditions. Paralogous genes that mutate to the  extent that they become nonfunctional are considered <u>pseudogenes</u>;  be mindful of these in evaluating BLAST searches! 
+</div></li>
+</ul>
+<p>&nbsp;</p>
+<h2>VI. Blast Search Tutorial (answers <u>underlined</u>) </h2>
+<iframe width="430" height="300" src="http://www.youtube.com/embed/14STdaHdWsk" frameborder="0" allowfullscreen></iframe>
+<p></p>
+<a href="#_" class="moreorless"><span class="bigblock"></span></a>
+<div class="expandable">
+<p>Use the nucleotide to protein  translation tool at <a target="_blank" href="http://searchlauncher.bcm.tmc.edu/seq-util/Options/sixframe.html">http://searchlauncher.bcm.tmc.edu/seq-util/Options/sixframe.html</a> to translate the following <em>E. coli</em> genomic  nucleotide sequence. Analyze the resulting 6 reading frames (+1, +2, +3, -1,  -2, &amp; -3) of translation to determine which frame produces an ORF (note:  the sequence has been trimmed to 2-4 codons on either side of the ORF to ensure  easy identification in the correct reading frame).</p>
+<ul>
+  <li>Go to http://www.ecocyc.org
+</li>
+  <li>Click BLAST
+</li>
+  <li>Choose Protein to Protein (blastp)  analysis
+</li>
+  <li>Paste the AMINO ACID sequence from the  ORF you found above into the query sequence box.
+</li>
+  <li>Click &quot;Search&quot;
+</li>
+  <li>Determine the identity of the protein  coded in the ORF by BLAST analysis.
+</li>
+  <ol>
+    <li>Which reading frame coded for the ORF?
+</li>
+    <li>What is the name of your protein?
+</li>
+    <li>What was the score and e-value for this result and are  these values good enough that you think the match is true?
+</li>
+    <li>In your own words please describe the function of your  protein.
+</li>
+  </ol>
+</ul>
+<p>&nbsp;</p>
+<p>Your Nucleotide Sequence: </p>
+<p class="sequence">GACGAGAACTTAAGCCTGCGGCTGAGTTACAACGTCTTTGATACCTTTAA<br />
+  CTTCGATCTCTACGCGACGATCCGGAGCCAGGCAGTCGATCAGTGCAGCA<br />
+  CGCTGTTTCACGTTGTCACAGGTGTTGCCAGTAACCGGGTTGGATTCGCC<br />
+  CATACCACGTGCGGAGATCTTGTCTGCCGGGATACCTTTGGAGATCAGGT<br />
+  AATCAACAACAGACTGAGCACGGCGCTCGGACAGACCCTGGTTGTAAGCG<br />
+  TCAGAACCGATGCGGTCGGTGTAACCCAGAACAACTACGGAACCGTCTTT<br />
+  CGGATCCAGGTTGCTCAGCTGGCTGTACAGCTGATCCAGAGCAGCCTGAC<br />
+  CTTCCGGTTTCAGGGTTGCTTTGTTGAAGTTGAACAGAACGTCAGACTTC<br />
+  AGAGTGAAGTGCTTGGTCTGTACTTCCGGTGCCGGAGCTGGAGCCGGAGC<br />
+  AACTACTGGAGCTGCTTCGCCCTGACCGAAACGGTAGGAAACACCCAGGC<br />
+  TCAGCATGCCGTTGTCCGGACGAGTGCCGATGGTGTGTGCGTCACCGATG<br />
+  TTGTTGGTCCACTGGTATTCCAGACGGGTAGCGATTTCAGGAGTGATCGC<br />
+  GTACTCAACACCGCCAGCGAAGACCGGAGAAACGCCGGTGTCGTGGTTTT<br />
+  TACCATAAACGTTGGATTTAGTGTCTGCACGCCATACCATGCCACCCAGA<br />
+  CGAGTGTAGATGTCCAGGTCGTCAGTGATTGGGTAACCCAGTTTAGCGGT<br />
+  CAGTTGAACGCCCTGAGCTTTGTATGCACCGTTTTCAACGCTGCCTTTGT<br />
+  ACGGCATACGACCTAACCAGTCGTAACCCATTTCAAAGCCAACATACGGG<br />
+  TTAACCTGGTAACCACCAAAAGCACCAGCGCCCAGTTGGTTTTCATGGGT<br />
+  CGGGCCATTGTTGTTGATGAAACCAGTGTCATGGTACTGGGACCAGCCCA<br />
+  GTTTAGCACCAGTGTACCAGGTGTTATCTTTCGGAGCGGCCTGCGCTACG<br />
+  GTAGCGAAACCAGCCAGTGCCACTGCAATCGCGATAGCTGTCTTTTTCAT<br />
+  TTTTTG</p>
+<p>Go to the website listed above and  first paste the nucleotide sequence in the window where it says &ldquo;Cut and paste  sequences here...&rdquo; As you&rsquo;ll need to inspect all six reading frames for the  ORF, make sure all six boxes underneath &ldquo;Frame number&rdquo; are checked before  clicking &ldquo;Perform conversion.&rdquo; The resulting page gives you translations of the  nucleotide sequence in all reading frames, starting with &ldquo;frame+3&rdquo; at the top.  Any sequences with multiple asterisks (each asterisk is a stop codon) can be  dismissed out of hand. This leaves translations using reading frame +1 and  frame -1, but the sequence using +1 has its stop codon well before the end, and  the instructions say the sequence should be easy to identify, so let&rsquo;s use  frame-1. Go to Ecocyc, and under the &ldquo;Search&rdquo; pull down menu at top, select  &ldquo;BLAST&rdquo;. Copy the amino acid sequence from frame-1 and paste in the &ldquo;Enter your  query sequence...&rdquo; box, and make sure you&rsquo;re running a blastp search (protein  query, protein database). The top hit has a score of  &ldquo;640&rdquo; and an E value of &ldquo;0&rdquo;. That&rsquo;s as good  as BLAST searches get in terms of statistical significance. </p>
+<p>So here are the answers:</p>
+<ul>
+  <li><u>Frame -1</u>.
+</li>
+  <li>The top hit is <u>outer membrane protein 3a</u>.
+</li>
+  <li>The score is <u>640</u>, the e value is <u>0</u>. The  higher your score is, the more similarity between your query sequence and the  &ldquo;Subject&rdquo; sequence from the database. E values lower than 10<sup>-5</sup>  (0.00001) are usually considered significant, and you can&rsquo;t get any lower a  value than 0. It&rsquo;s a match. 
+</li>
+  <li>Look up &ldquo;outer membrane protein 3a&rdquo;using the &ldquo;Quick  Search&rdquo; field at the top of the Ecocyc home page (or any Ecocyc page). You&rsquo;ll  be taken to a &ldquo;Polypeptide:&rdquo; page for this protein, also called OmpA. The  &ldquo;Summary&rdquo; section states OmpA is &ldquo;a <u>nonspecific diffusion channel</u>,  allowing various small solutes to cross the outer membrane.&rdquo; The next sentence  mentions OmpA also functions as <u>a receptor used by bacteriophage</u>, a <u>mediator  of bacterial conjugation</u>, and that it <u>stabilizes the shape of the  bacterium</u>. Paraphrase these statements to correctly answer the question. 
+</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<script type="text/javascript">
+$("a.moreorless").click(function(){
+	if ($(this).next("div").css("display") == "none")
+	{
+		$(this).next("div").show(500);
+		if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+		else $(this).children("span").css("background-position","0 -30px");
+	} else {
+		$(this).next("div").hide(500);
+		$(this).children("span").css("background-position","0 0");
+	}
+});
+$("a.moreorlessall").click(function(){
+	if ($("div.expandable:eq(0)").css("display") == "none")
+	{
+		$("a.moreorless").each(function(){
+			$(this).next("div").show(500);
+			if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+			else $(this).children("span").css("background-position","0 -30px");
+		});
+	} else {
+		$("a.moreorless").each(function(){
+			$(this).next("div").hide(500);
+			$(this).children("span").css("background-position","0 0");
+		});
+	}
+});
+
+</script> 

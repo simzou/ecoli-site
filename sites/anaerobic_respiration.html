@@ -1,0 +1,291 @@
+<style type="text/css">
+div.content ul.img_versions {
+	margin: 0;
+	padding: 0 74px;
+	list-style-type: none;
+	cursor: default;
+	width: auto;
+}
+div.content ul.img_versions li {
+	float:left;
+	width:100px;
+	cursor: pointer;
+	text-align:center;
+	background-color:#2d678d;
+}
+div.content ul.img_versions a, ul.img_versions a:visited
+{
+	display: block;
+	cursor: pointer;
+	background-color: #FFF;
+	margin:1px;
+	padding: 0.5em 0.75em;
+	color: #2d678d;
+	font-size:10px;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+div.content ul.img_versions a:hover, ul.img_versions a:focus
+{
+	background-color: #2d678d;
+	color: #FFF;
+}
+
+</style>
+<!--[if gte IE 9]>
+<style type="text/css">
+a.moreorless span.inl {
+	font-size:10px;
+}
+</style>
+<![endif]-->
+<h2>Anaerobic Respiration </h2>
+<p>Anaerobic respiration is a process that generates cell energy by coupling membrane-associated electron transfer reactions using an electron acceptor other than O<sub>2</sub>. The process creates a membrane potential across the cytoplasmic membrane called the proton motive force (pmf). The cell then uses this energy to drive ATP synthesis using the membrane-bound ATP synthase (<strong>electron transport phosphorylation</strong>). </p>
+<p>&nbsp;</p>
+<h2>Key Concepts</h2>
+<ul>
+ <li>Anaerobic respiratory chains are located in the cytoplasmic membranes and generate a proton motive force (pmf).</li>
+</ul>
+<ul>
+ <li>The electron transport chains always consist of an electron donating dehydrogenase and an electron accepting terminal reductase.</li>
+</ul>
+<ul>
+ <li><a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=CPD-9728">Menaquinone</a> (MQ) is the electron mediator between the enzyme complexes.</li>
+</ul>
+<ul>
+ <li>The proton motive force drives ATP synthesis via the membrane-bound <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=ATPSYN-CPLX">ATP synthase</a>.</li>
+</ul>
+<ul>
+ <li>Anaerobic respiration generates the majority of the cell energy under anaerobic growth conditions.</li>
+</ul>
+<ul>
+ <li>There are many compounds that can support anaerobic respiration in <em>E. coli.</em></li>
+</ul>
+<p>&nbsp;</p>
+<h2>Principles of Anaerobic Respiration</h2>
+<p>Anaerobic respiration supports growth of <em>E. coli</em> cells under conditions when suitable electron donors (DH) and acceptors (A) are present. There are a variety of different inorganic and organic donors and acceptors that can be used, and each respiratory substrate requires a specific membrane bound enzyme for its utilization. </p>
+<p>Together, these donor and acceptor enzymes form modular electron transport chains that consist of a membrane-associated dehydrogenase enzyme that transfers electrons to an anaerobic terminal reductase enzyme. The overall reaction is represented by:</p>
+<p>DH + A <span class="arrowf">→</span> D + AH</p>
+<p><img src="sites/site_images/ana1.gif" width="450" height="228" alt=""></p>
+<p></p>
+<p><strong>Example 1: Anaerobic electron transfer from formate to nitrate</strong></p>
+
+<!--<a href="#_" class="moreorless"><span class="bigblock" style="background-position:0 -40px;"></span></a>
+<div class="expandable" style="display:block">-->
+
+<p>In the following example of anaerobic respiration, formate (HCOO<sup>-</sup>) serves as the electron donor and nitrate (NO<sub>3</sub><sup>-</sup>) is the electron acceptor. Formate is first oxidized by <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGN-CPLX">formate dehydrogenase N</a> and electrons are then transferred to <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRATREDUCTA-CPLX">nitrate reductase</a> which in turn reduces nitrate to nitrite (NO<sub>2</sub><sup>-</sup>). The two enzymes form a modular electron transport chain. </p>
+<p>This overall reaction is:<br />
+  formate + NO<sub>3</sub><sup>-</sup>  <span class="arrowf">→</span> CO<sub>2</sub> + NO<sub>2</sub><sup>-</sup> + H<sub>2</sub>O</p>
+<p>The individual reactions catalyzed by each enzyme in the above electron transport chain are: </p>
+<p><a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGN-CPLX">Formate dehydrogenase N</a>:<br />
+  formate + MQ  <span class="arrowf">→</span>  CO<sub>2</sub> + MQH<sub>2</sub></p>
+<p><a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRATREDUCTA-CPLX">Nitrate reductase</a>:<br />
+  MQH<sub>2</sub>  + NO<sub>3</sub><sup>-</sup>  <span class="arrowf">→</span> NO<sub>2</sub><sup>-</sup> + H<sub>2</sub>O + MQ</p>
+<p>Under anaerobic conditions, the lipid soluble cofactor <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=CPD-9728">menaquinone</a> (MQ) mediates (i.e., transfers) electrons between the dehydrogenase and the reductase enzymes. </p>
+
+<img class="img_roll" src="sites/site_images/ana11.gif" width="450" height="350" alt="">
+
+<ul class="img_versions">
+<li><a href="#_" id="11">Simple</a></li>
+<li><a href="#_" id="12">More details</a></li>
+<li><a href="#_" id="13">Most details</a></li>
+</ul>
+<p>&nbsp;</p>
+
+<!--</div>-->
+
+<p>&nbsp;</p>
+
+<h2>How <em>E. coli</em> Respires under anaerobic conditions</h2>
+<p>The <em>E. coli</em> genome encodes a variety of distinct dehydrogenase and terminal reductase enzymes that accomplish anaerobic respiration. Their synthesis usually requires the absence of O<sub>2</sub> (anaerobiosis) and the presence of the respective enzyme substrate. Regardless of which enzymes are used, the resulting electron transport chain forms a proton motive force (pmf) that is then used for ATP synthesis and for other energy-requiring processes.  </p>
+<p>&nbsp;</p>
+<h3>Anaerobic Electron Donors</h3>
+<p>There are at least six compounds that <em>E. coli</em> can use as anaerobic electron donors: they include formate, hydrogen, NADH, lactate, glycerol-3-phosphate, and ethanol. </p>
+<p><strong>Electron donors and their dehydrogenases:</strong></p>
+<p><em>E. coli</em> produces one or more specific dehydrogenase enzymes to oxidize each electron donor. Any of these dehydrogenases can donate electrons to any of the electron acceptor enzymes (i.e., terminal reductases) described below to form an electron transport chain. The synthesis of the individual enzyme is usually controlled by oxygen and the availability of the enzyme’s substrate. </p>
+<ul>
+ <li><strong>Formate and formate dehydrogenase</strong>
+<p><em>E. coli</em> contains three formate dehydrogenase enzymes. </p>
+<a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+<div class="expandable">
+<p>Two enzymes, <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGN-CPLX">formate dehydrogenase-N</a> (FdnGHI)<strong> </strong>and <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGO-CPLX">formate dehydrogenase-O</a> (FdoGHI) participate in anaerobic respiration by<strong> </strong>oxidizing formate in the periplasm to carbonate. They transfer electrons to the menaquinone pool which supplies nitrate reductase or another terminal reductase with these electrons. The enzymes share extensive sequence similarity and immunological properties: both contain molybdenum and selenium cofactors, iron-sulfur centers and heme <em>b</em>. The third enzyme, formate dehydrogenase-H (FdhF) is membrane bound and interacts with a hydrogenase to form the formate-hydrogen lyase complex. </p>
+<p>Expression of formate dehydrogenase-N (FdnGHI)<strong> </strong>is induced by nitrate and anaerobiosis, while expression of formate dehydrogenase-O (FdoGHI) occurs under both aerobic and anaerobic conditions where nitrate weakly stimulates gene expression. Expression of formate dehydrogenase-H (FdhF) is induced by formate and repressed by nitrate, nitrite or TMAO. </p>
+
+</div>
+
+</li>
+</ul>
+<ul>
+ <li><strong>NADH and NADH dehydrogenase</strong>
+<p><em>E. coli</em> contains two NADH dehydrogenases.</p>
+<a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+<div class="expandable">
+<p>Only one, <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NADH-DHI-CPLX">NADH dehydrogenase I</a> (Ndh-1, also called NuoABCDEFGHIJKLMN) is present under both aerobic and anaerobic conditions. <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=NIL&amp;object=NADH-DHII-MONOMER&amp;redirect=T">NADH dehydrogenase II</a> (Ndh-2), encoded by the <em>ndh</em> gene is synthesized only aerobically. Ndh-1 catalyzes the transfer of electrons from NADH to the quinone pool and is able to generate a proton electrochemical gradient by pumping protons from the cytoplasm to the cell periplasm. In contrast, Ndh-2 does not pump protons. </p>
+<p>The purified Ndh-1 enzyme can be separated into three components: a soluble fragment composed of the NuoE, F and G subunits which catalyze the oxidation of NADH. It represents the electron input section of the enzyme and contains all of the iron-sulfur clusters and the FMN cofactor. An amphipathic connecting fragment is composed of the NuoB, CD and I subunits and is linked to a hydrophobic membrane fragment composed of the remaining NuoA, H, J, K, L, M and N subunits. These latter two parts are responsible for reducing the MQ cofactor to MQH<sub>2</sub> (or Q cofactor to QH2), and for pumping protons across the cytoplasmic membrane.</p>
+<p>Expression of the 14 gene <em>nuo</em> operon is regulated by oxygen and nitrate availability, and by other factors including C4 dicarboxylic acids.</p>
+
+</div>
+
+</li>
+</ul>
+
+<p><strong>Other electron donor enzymes:</strong><br />
+Several other dehydrogenases may also function anaerobically to provide electrons to the terminal reductases. These include:</p>
+
+<ul>
+ <li><strong>Hydrogen and hydrogenase</strong>
+ <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p><em>E. coli</em> contains 4 hydrogenases, of which <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMHYDROGI-CPLX">hydrogenase 1</a> (HyaABC) and <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMHYDROG2-CPLX">hydrogenase 2</a> (HybABOC) are proposed to be involved in electron transfer to anaerobic respiratory reductases. A third hydrogenase, <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=HYDROG3-CPLX">hydrogenase 3</a> (HycBCDEFG) interacts with formate dehydrogenase-H (FdhF) to form the formate-hydrogen lyase complex. </p>
+</div>
+</li>
+</ul>
+<ul>
+ <li><strong>Glycerol 3-phoshate and glycerol 3-P dehydrogenase</strong>
+ <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p><em>E. coli</em> contains 2 glycerol 3-P dehydrogenases, of which one is the anaerobic <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=ANGLYC3PDEHYDROG-CPLX">glycerol 3-P dehydrogenase</a> (GlpABC) that serves as electron donor to anaerobic respiratory reductases.</p>
+</div>
+</li>
+</ul>
+<ul>
+ <li><strong>Lactate and lactate dehydrogenase</strong>
+ <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p><em>E. coli</em> contains 3 lactate dehydrogenases, of which <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=L-LACTDEHYDROGFMN-MONOMER">L-lactate dehydrogenase</a> (LldD) serves as electron donor to anaerobic respiratory reductases.</p>
+</div>
+</li>
+</ul>
+
+<p>&nbsp;</p>
+<h3>Anaerobic Electron Acceptors</h3>
+<p>There are at least five compounds that can function as anaerobic electron acceptors in <em>E. coli.</em> They include nitrate, nitrite, trimethylamine-N-oxide, dimemethyl-sufloxide, and fumarate. To catalyze their reduction, the cell must synthesize one or more substrate specific terminal reductase enzymes. </p>
+<p><strong>Electron Acceptors and their terminal reductase enzymes:</strong></p>
+<ul>
+ <li><strong>Nitrate and nitrate reductase</strong>
+<p><em>E. coli</em> contains genes for three distinct nitrate reductase enzymes that reduce nitrate to nitrite.</p>
+<a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable"><p>Two of these, <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRATREDUCTA-CPLX">nitrate reductase A</a> (NRA or NarGHI) and <a target="_blank" href="http://BioCyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRATREDUCTZ-CPLX">nitrate reductase Z </a>(NRZ or NarZYV), are membrane bound and are biochemically nearly identical. The third nitrate reductase, <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NAP-CPLX">Nap</a> (NapAGHBC), is located in the periplasm. </p>
+<p>NarGHI is the preferred terminal reductase under anaerobic conditions when nitrate is abundant. It often couples with <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGN-CPLX">formate dehydrogenase-N</a> to form a respiratory chain. The pmf is generated by a menaquinone (MQ) loop where MQ is reduced on the cytoplasmic face of the membrane when formate dehydrogenase oxidizes formate. This allows MQ to pick up its protons from the cytoplasm to form MQH<sub>2</sub>. MQH<sub>2</sub> is then oxidized by nitrate reductase on the periplasmic side of the membrane and protons are deposited in the periplasm. Concurrently, the electrons are passed to the active site of nitrate reductase to reduce nitrate to nitrite. </p>
+<p align="center">Formate + NO<sub>3</sub><sup>-</sup>  <span class="arrowf">→</span> CO<sub>2</sub> + NO<sub>2</sub><sup>-</sup> + H<sub>2</sub>O</p>
+<p>The NapA nitrate reductase (NapAGHBC) also participates under anaerobic conditions to form electron transfer chains. Because the enzyme is located in the periplasmic space, it does not require nitrate uptake into the cytoplasm as do the NarGHI and NarZYV enzymes. NapA receives electrons from the quinone pool via other Nap subunits. </p>
+<p>The <em>nap</em> operon is expressed under low nitrate conditions while the <em>narGHI </em>operon is expressed only when environmental nitrate levels are high. Both are induced by anaerobiosis and nitrate. The expression of the <em>narZYV </em>operon is constitutive and further induced during stationary phase: however, it is independent of nitrate availability or anaerobiosis. </p>
+</div>
+</li>
+</ul><ul>
+ <li><strong>Nitrite and nitrite reductase</strong>
+<a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p>Nitrite is toxic to the cell and is transported out or detoxified when concentrations are high. However, nitrite at low concentrations can serve as terminal electron acceptor once nitrate is depleted from the environment. Nitrite reductase serves as the terminal reductase. </p>
+<p><em>E. coli</em> has two distinct nitrite reductases called <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=GENE&amp;object=EG11781">NrfA</a> and <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRITREDUCT-CPLX">NirB</a>. The NrfA enzyme is encoded by the <em>nrfA</em> gene, which is expressed optimally at low environmental nitrate conditions. In contrast, <em>nirB</em> gene expression is maximal only at high nitrate concentrations. At intermediate concentration of nitrate, both nitrite reductases are made. Expression of the genes encoding both enzymes is regulated by nitrate. Nitrite has only a minor affect on <em>nrfA</em> and <em>nirB</em> gene expression. </p>
+<p>The two nitrite reductases differ in cellular location and in metabolic function. NrfA is associated with the cytoplasmic membrane with its cytochrome components facing the periplasm where it reduces nitrite to ammonium. The enzyme received electrons from <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGN-CPLX">formate dehydrogenase-N</a> or other dehydrogenases which donate electrons from their respective substrates. Menaquinone acts as electron mediator between enzymes. Formate-dependent nitrite reduction via NrfA generates a proton motive force. </p>
+<p align="center">Formate + 7 H<sup>+</sup> + NO<sub>2</sub><sup>-</sup>  <span class="arrowf">→</span> CO<sub>2</sub> + NH<sub>4</sub><sup>+</sup> + 2 H<sub>2</sub>O</p>
+<p>In contrast, NirB is located in the cytoplasm and does not generate a proton gradient. Its probable metabolic role is to detoxify nitrite. </p>
+</div>
+</li>
+</ul><ul>
+ <li><strong>TMAO and TMAO reductase</strong>
+ <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p><em>E. coli</em> possesses three membrane bound trimethylamine N-oxide (TMAO) reductase enzymes. Reduction of <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=TRIMENTHLAMINE-N-O">TMAO</a> by each enzyme occurs in the periplasmic space. </p>
+<p><a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=TMAOREDUCTI-CPLX">TMAO reductase I</a> (encoded by <em>torAC</em>) can accept electrons from various physiological donors via either menaquinone or ubiquinone. Unlike other anaerobic respiratory systems, which are only synthesized under anaerobic conditions, the <em>torAC</em> operon is expressed under both anaerobic and aerobic conditions; however, the operon is inducible by TMAO. TMAO reductase I contains molybdenum, iron, zinc and acid-labile sulfur cofactors. <strong></strong></p>
+<p>No genes have been identified for <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=NIL&amp;object=TMAOREDUCTII-MONOMER&amp;redirect=T">trimethylamine N-oxide (TMAO) reductase II</a> and the enzyme is uncharacterized. It has been suggested that <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=DIMESULFREDUCT-CPLX">dimethylsulphoxide reductase</a>, coded for by the <em>dmsABC</em> genes, may in fact be TMAO reductase II.</p>
+<p>The <em>torYZ</em>-encoded <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=CPLX-63">trimethylamine N-oxide (TMAO) reductase III</a> complex represents the third TMAO respiratory system in <em>E. coli</em>. TorZ is the catalytic subunit and TorY is the pentahemic <em>c</em>-type cytochrome subunit. The enzyme has broad substrate specificity: it is able to reduce N- and S-oxide compounds. TMAO is the best substrate for the enzyme. Expression of <em>torYZ</em> is low and not induced by TMAO, DMSO or BSO.</p>
+<p>Reduction of TMAO by all three TMAO reductases may be coupled with formate oxidation via <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=FORMATEDEHYDROGN-CPLX">formate dehydrogenase-N</a> or coupled to other dehydrogenases which results in formation of a proton motive force. </p>
+<p align="center">Formate + trimethylamine N-oxide <span class="arrowf">→</span> CO<sub>2</sub> + trimethylamine + H<sub>2</sub>O<strong> </strong></p>
+</div>
+</li>
+</ul>
+<ul>
+ <li><strong>DMSO and DMSO reductase</strong>
+ <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p><a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=DIMESULFREDUCT-CPLX">Dimethyl sulfoxide (DMSO) reductase</a> (DmsABC) is a membrane-associated terminal electron transfer enzyme with structural similarity to formate dehydrogenase and not to TMAO reductase. Like other anaerobic reductases, it forms an energy-transducing anaerobic electron transport chain. DMSO reductase has a broad substrate range: it reduces <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=DMSO">DMSO</a> plus other amine-N-oxides and methyl-sulfoxides, including trimethylamine N-oxide (TMAO). The enzyme contains a molybdenum cofactor, and four iron-sulfur clusters, which are oriented towards the periplasmic space, where the reduction of DMSO occurs. The <em>dmsABC</em> operon is expressed optimally under anaerobic conditions and when nitrate is absent. </p>
+<p align="center">Formate + dimethyl sulfoxide <span class="arrowf">→</span> CO<sub>2</sub> + dimethysulfide + H<sub>2</sub>O<strong> </strong></p>
+</div>
+</li>
+</ul>
+<ul>
+ <li><strong>Fumarate and fumarate reductase</strong>
+ <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+<p>The membrane-bound fumarate reductase (FrdABCD) catalyzes the reduction of fumarate to succinate. It can couple with a variety of dehydrogenases in the cell including NADH dehydrogenase to form an anaerobic electron transfer chain. Fumarate reductase contains covalently bound FAD and three iron-sulfur centers. This membrane bound enzyme is synthesized optimally under anaerobic conditions and in the presence of fumarate. </p>
+<p align="center">Formate + fumarate <span class="arrowf">→</span> CO<sub>2</sub> + succinate </p>
+</div>
+</li>
+</ul>
+<p><strong>Example 2: Anaerobic electron transfer from NADH to nitrate</strong></p>
+<!--<a href="#_" class="moreorless"><span class="bigblock" style="background-position:0 -40px;"></span></a>
+<div class="expandable" style="display:block;">-->
+<p>In the following example of anaerobic respiration, NADH serves as the electron donor and nitrate is the electron acceptor. NADH is first oxidized by <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NADH-DHI-CPLX">NADH dehydrogenase</a> and electrons are then transferred to <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRATREDUCTA-CPLX">nitrate reductase</a> which in turn reduces nitrate to nitrite. The two enzymes form a modular electron transport chain. </p>
+<p>This overall reaction is:<br />
+  NADH + H<sup>+</sup> + NO<sub>3</sub><sup>-</sup> <span class="arrowf">→</span> NAD<sup>+</sup> + NO<sub>2</sub><sup>-</sup> + H<sub>2</sub>O</p>
+<p>The individual reactions catalyzed by each enzyme in the above electron transport chain are: </p>
+<p><a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NADH-DHI-CPLX">NADH dehydrogenase</a>:<br />
+  NADH + H<sup>+</sup> + Q <span class="arrowf">→</span> NAD<sup>+</sup> + QH<sub>2</sub></p>
+<p><a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NITRATREDUCTA-CPLX">Nitrate reductase</a>:<br />
+  QH<sub>2</sub>  + NO<sub>3</sub><sup>-</sup>  <span class="arrowf">→</span>  NO<sub>2</sub><sup>-</sup> + H<sub>2</sub>O + Q </p>
+<p>Under anaerobic conditions, the lipid soluble cofactor <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=CPD-9728">menaquinone</a> (MQ) usually mediates (i.e., transfers) electrons between the dehydrogenase and the reductase enzyme. This is one of the few exceptions where <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=UBIQUINONE-8">ubiquinone</a> (Q) is used in place of MQ. </p>
+<img class="img_roll" src="sites/site_images/ana121.gif" width="450" height="350" alt="">
+
+<ul class="img_versions">
+<li><a href="#_" id="121">Simple</a></li>
+<li><a href="#_" id="122">More details</a></li>
+<li><a href="#_" id="123">Most details</a></li>
+</ul>
+<p>&nbsp;</p>
+<!--</div>-->
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Credits: </strong></p>
+<p>Authored by Robert Gunsalus and Imke Schröder<br />
+&copy;The <em>Escherichia coli</em> Student Portal</p>
+<p>This project acknowledges support from:<br />
+ NIH Grant Award GM077678 to SRI, International<br />
+ Peter Karp and coworkers at EcoCyc.org<br />
+The UCLA Department of MIMG</p>
+<p> </p>
+<!--<p><a href="#_" class="moreorlessall">Show/Hide All</a></p>-->
+<script type="text/javascript">
+$("a.moreorless").click(function(){
+	if ($(this).next("div").css("display") == "none")
+	{
+		$(this).next("div").show(500);
+		if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+		else $(this).children("span").css("background-position","0 -30px");
+	} else {
+		$(this).next("div").hide(500);
+		$(this).children("span").css("background-position","0 0");
+	}
+});
+$("a.moreorlessall").click(function(){
+	if ($("div.expandable:eq(0)").css("display") == "none")
+	{
+		$("a.moreorless").each(function(){
+			$(this).next("div").show(500);
+			if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+			else $(this).children("span").css("background-position","0 -30px");
+		});
+	} else {
+		$("a.moreorless").each(function(){
+			$(this).next("div").hide(500);
+			$(this).children("span").css("background-position","0 0");
+		});
+	}
+});
+
+$("ul.img_versions a").click(function(){
+	var newsrc = "sites/site_images/ana" + $(this).attr("id") + ".gif";
+	$(this).parent().parent().prev("img").attr("src", newsrc);
+//	$("#loaderimg2").show(0).delay(2000).hide(0);
+//	alert("img" + $(this).attr("id") + $(this).parent().parent().prev(".img_roll").attr("class"));
+});
+
+MM_preloadImages(
+'sites/site_images/ana12.gif',
+'sites/site_images/ana13.gif',
+'sites/site_images/ana122.gif',
+'sites/site_images/ana123.gif'
+);
+</script>

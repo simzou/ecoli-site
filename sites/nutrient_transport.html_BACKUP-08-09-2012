@@ -1,0 +1,218 @@
+<h1>Nutrient Transport </h1>
+<p>Nutrient  uptake (i.e., solute transport) is a cellular process for acquiring molecules  from the cell environment that are needed to support cell growth, metabolism  and cell maintenance.  </p>
+<h2>Key Concepts</h2>
+<ul type="disc">
+  <li>Cells require many types of essential and non-essential nutrients. </li>
+</ul>
+<ul type="disc">
+  <li>Cells scavenge compounds present in low to high abundance from their       environments and accumulate them intracellularly. </li>
+</ul>
+<ul>
+  <li>There  are two distinct types of nutrient uptake: </li>
+</ul>
+<ul>
+  <li><strong>Passive transport.</strong>   Passive transport does not require cell energy input. It occurs either by  the <strong>passive diffusion</strong> of a molecule across  the cell membrane, or by the <strong>facilitated  diffusion</strong> of the molecule aided by a specialized membrane protein. </li>
+</ul>
+<ul>
+  <li><strong>Active transport.</strong> Active transport of a nutrient requires  a dedicated solute transport system and input of cell energy.<strong> </strong>There are several types of systems  that are differentiated by the mechanism of molecule uptake, the energy source,  and the types of proteins present. Examples include the <strong>ABC-type transporters</strong>, <strong>symporters,</strong> <strong>antiporters, and group translocation  transporters</strong>. </li>
+</ul>
+<ul>
+  <li>Solute  transport systems are also used to maintain intracellular ion levels, and to  export cell waste materials and toxins. </li>
+</ul>
+<p>&nbsp;</p>
+<h2>General background on Nutrient  Uptake </h2>
+<p><em>E.  coli,</em> like most microorganisms, thrives in environments that are  often limiting for the many types of nutrients needed to support cell growth. To  accumulate these molecules the cell employs dedicated nutrient uptake systems  called solute transporters. Most of these require energy input in form of the proton  motive force or ATP hydrolysis to drive nutrient uptake into the cell. </p>
+<p>To accomplish nutrient uptake, the cell must overcome three  major obstacles. </p>
+<a href="#_" class="moreorless"><span class="bigblock"></span></a>
+<div class="expandable">
+  <p>First,  the cytoplasmic membrane is impermeable to most types of molecules and this  restricts their movement across it.  Second,  the cell must accumulate each nutrient from a generally low concentration present  in the surrounding environment, to a much higher level inside the cell. Third,  the cell must prevent the entry of harmful molecules that are toxic or  potentially harmful while ridding the cell of waste materials.  <em>E. coli</em> has acquired through evolution several very elegant solutions to deal with the  above obstacles!</p>
+</div>
+<p>The number and types of nutrients used by the cell is large.  Some nutrients are essential and the cell  cannot survive without them. </p>
+<a href="#_" class="moreorless"><span class="bigblock"></span></a>
+<div class="expandable">
+  <p>For example, certain vitamins,  inorganic salts and metals such as phosphate, Mg<sup>2+</sup>, K<sup>+</sup>,  Cu<sup>2+</sup>, and Fe<sup>2+</sup>. The cell also requires other essential compounds  that contain carbon, nitrogen and/or sulfur needed to support cell biosynthesis  or to generate cellular energy to fuel the above processes.  </p>
+</div>
+<p>Many other nutrients are not essential for <em>E. coli</em> cell survival but they are acquired  by the cell in order to conserve energy… </p>
+<a href="#_" class="moreorless"><span class="bigblock"></span></a>
+<div class="expandable">
+  <p>that would otherwise be expended for their synthesis. <em>E. coli</em> possesses several hundred distinct nutrient uptake  systems. They differ in the type of substrate acquired, the energy required, and  their mode of operation. The following examples show how several well studied  systems function.   </p>
+</div>
+<p>&nbsp;</p>
+<h2>Specific information on E. coli Nutrient  Uptake</h2>
+<h3>I. Passive  transport across membranes</h3>
+<p> Entry of solutes into the cell by simple diffusion is generally  limited to a few types of molecules since the cytoplasmic membrane forms a hydrophobic  barrier to most types of nutrients. The driving force for simple diffusion depends  on the solute concentration gradient across the membrane.  The molecules will flow from the region of  high concentration to the region of lower concentration. Thus, the  concentration inside the cell can never be higher than the level outside the  membrane.   </p>
+<p>There are two types of passive transport systems called <u>passive  diffusion</u> and <u>facilitated diffusion.</u> They differ in that one type employs  a special protein to assist in moving the molecule across the membrane while  the other does not.  </p>
+
+
+
+<p><strong>1. Passive  diffusion.</strong></p>
+<a href="#_" class="moreorless"><span class="bigblock"></span></a>
+<div class="expandable">
+  <p>Passive diffusion of a nutrient across the membrane does not require  cell energy or any cell proteins. Several types of gasses (e.g. O<sub>2</sub>,  N<sub>2</sub>, CO<sub>2</sub>) plus small, uncharged polar molecules (e.g. H<sub>2</sub>O,  glycerol, urea) can pass directly through the cytoplasmic membrane at  reasonable rates as they are neither particularly hydrophobic nor hydrophilic  in nature. The rate of diffusion of most types of molecules is generally very slow. </p>
+  <p>The direction of molecule  movement across the membrane is determined entirely by the concentration of the  molecule on the outside versus the inside of the cell. When the concentration is  higher outside, molecules will flow into the cell. Conversely, if the  concentration is higher inside, molecules flow out of the cell.  In reality, passive diffusion across the  cytoplasmic membrane does not generally supply sufficient amounts of required nutrients  to support cell growth. <br />
+  </p>
+</div>
+<p> <strong>2. Facilitated  diffusion.</strong></p>
+<a href="#_" class="moreorless"><span class="bigblock"></span></a>
+<div class="expandable">
+  <p>This process  is similar to passive diffusion except that the cell employs a specialized protein  embedded in the membrane that &ldquo;facilitates&rdquo; the movement of the molecule across  it.  This allows entry of charged and  polar molecules that would otherwise be excluded by the hydrophobic membrane  barrier. Without a facilitator protein, highly abundant molecules in the  environment could not otherwise cross the membrane. </p>
+</div>
+<p>There are two types of facilitator proteins called <u>carrier proteins</u> and <u>porin proteins</u>. The former are always located in the cytoplasmic  membrane and the latter are always located in the outer membrane. Both proteins  increase the rate of molecule diffusion across the membranes but they work in different  ways. </p>
+<ul>
+  <ul>
+    <li><strong>Carrier proteins</strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">are embedded  in the cytoplasmic membrane and are generally nutrient-specific (i.e., specific  for a singe type of molecule). The synthesis of the carrier protein is often regulated  by the availability of the molecule transported.  Carrier proteins form selective pores that open  and close to control passage of that molecule into or out of the cell.  Thus, they speed up the rate of molecule movement  relative to passive diffusion.  Again, this  process does not require cellular energy. For example, in <em>E. coli</em> glycerol is transported efficiently across the cytoplasmic  membrane by the <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=CPLX0-7654">GlpF permease (GlpF glycerol MIP channel</a>). </div>
+    </li>
+  </ul>
+  <ul>
+    <li><strong>Porin proteins </strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">are embedded in the <em>E. coli</em> outer membrane and facilitate the movement of molecules from  the cell exterior to the cell periplasmic space. No cell energy is used and  since they operate by simple diffusion. They also allow molecules to flow in  the reverse direction.  The various porins make up an estimated 50% of  the total protein present in the outer membrane.
+        <p>Porins  are divided into two types. </p>
+        <p>The <strong>nonspecific  porins</strong> allow numerous types of small,  hydrophilic and hydrophobic molecules to pass freely across the outer membrane  via small pores in the proteins (e<em>.g</em>.,  the<em> E. coli</em> <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=EG10670-MONOMER">OmpC</a> and <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=EG10671-MONOMER">OmpF</a> proteins). However, the size  of the molecule must be below ~600  Da in size. Larger molecules cannot traverse the  pore because the diameter of the pore is too small for them (~ 8-10 Angstroms).   </p>
+        <p>The <strong>substrate-specific  porins,</strong><strong> </strong>as the name suggests, recognize  a specific type of molecule. Generally, the molecules are too large to enter by  the non-specific porins. Molecules that diffuse through the substrate-specific porins  include maltose dextrans, long chain fatty acids, vitamin B12, and the Fe<sup>3+</sup>-siderophore  complexes. Some of these substrate specific porins recognize closely related family  of molecules, for example, maltose and the larger maltose dextrans (e.g., MalB). </p>
+      </div>
+    </li>
+  </ul>
+</ul>
+<h3>II. Active  transport across the cytoplasmic membrane</h3>
+<p> The majority of the nutrients required for cell metabolism are  taken up by <u>active transport systems</u>. This process is carried out by one  or more proteins located in the cytoplasmic membrane or associated with it. All  of these systems require the expenditure of cell energy supplied in the form of  ATP, the proton motive force, or for some sugar transporters, by the high  energy compound, phosphoenylpyruvate (PEP). Active transport systems are highly  specific for an individual molecule or class of structurally related compounds. </p>
+<p>Since active transport is driven by the expenditure of cell  energy, it allows the cell to accumulate molecules to a much higher concentration  inside the cell (i.e., the cytoplasm) relative to the outside of the cell  (i.e., the periplasm, or cell exterior).    The synthesis and/or activity of many  of these active transport systems are often regulated depending on the cellular  needs.  </p>
+<p><strong>Types  of Active Transport Systems</strong></p>
+<p>Active transport systems are divided into three general classes  that are named according to their component parts or their mechanism of action.  In most cases the solute is transported from  the periplasm to the cell interior (i.e., cytoplasm) in an unmodified form. In a  few cases the solute is chemically altered during its transfer across the cytoplasmic  membrane (e.g., group translocation). <br />
+</p>
+<ol>
+  <li><strong>ABC  transporters.</strong>
+  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+    The <u>A</u>TP-<u>B</u>inding <u>C</u>assette (ABC) transport  systems comprise a large  class of active transport systems (&gt;200 known in <em>E. coli</em>). They deliver molecules across the cytoplasmic membrane  with the concomitant hydrolysis of ATP as the driving force for molecule uptake.  Typical substrates include many amino acids, sugars  and inorganic ions. Three protein components make up a typical ABC transporter system  and include a) a <strong>solute binding protein,</strong> b) a <strong>trans-membrane spanning protein</strong>,  and c) an <strong>ATP hydrolyzing protein</strong> that energizes the uptake process. The former protein is located in the cell  periplasm, and the second and third form a complex on the cytoplasmic membrane.
+  </div></li>
+  <ul>
+    <li>
+      In Gram-negative bacteria,
+      <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">
+      solute binding proteins diffuse freely in the periplasmic  space and bind the targeted molecule with very high affinity (i.e., recognizing  the molecule at concentrations as low as 10 nM). The binding protein delivers  the bound solute to the transmembrane-spanning protein that transports it into  the cell by a channel that is selective for only the desired moleucule. It will  not allow other types of molecules to enter the cell. The third protein component  is an ATP hydrolyzing protein attached to its membrane bound partner at the  inner surface in the cytoplasmic membrane.  It provides the driving force for solute  uptake into the cell. Here, the hydrolysis of ATP to ADP + Pi alters  the conformation of the membrane protein component which allows the solute to then  enter the cytoplasm. The leucine ABC transport system in <em>E. coli</em> is one well studied example.
+      </div>
+    </li>
+    <li>
+      The Gram-positive bacteria and the archaea
+      <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">
+        also possess many ABC-type  transport systems. However, they lack an outer membrane like that found in <em>E. coli.</em> To keep their solute binding  proteins nearby, these solute binding proteins are tethered to the cytoplasmic membrane  via a hydrophobic tail composed of about 25 amino acids. Otherwise, they could  be lost to the surrounding medium.
+      </div>
+    </li>
+    <li>
+      Iron III transport in Gram negative bacteria. 
+      <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">
+        Certain highly specialized ABC transport systems in <em>E. coli</em> function with a cognate substrate  specific porin protein. They coordinate acquisition of a specific solute from  the cell exterior to bring it into the periplasm, and subsequently into the  cytoplasm.  One example is the  siderophore-mediated iron III (Fe+3) uptake system in <em>E. coli</em>. Iron acquisition is essential for cell growth since this  metal is required for the synthesis of many iron-containing proteins including  cytochromes and iron-sulfur proteins.
+      </div>
+    </li>
+    <li>
+      Acquisition  of Fe<sup>3+</sup> ions is a more complicated process than for uptake of most nutrients 
+      <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">
+        since this form of iron is  extremely insoluble and is unable to freely diffuse into the cell in the  amounts needed to support cell growth. To overcome this hurdle, many types of bacteria  secrete one or more types of iron-binding molecules (i.e., siderophore). For  example, a molecule such as <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=NIL&amp;object=CPD0-2114&amp;redirect=T">hydroxamic acid</a>, <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=CIT">citrate</a>, or a more specialized molecule  made by <em>E coli</em> called <a href="hhttp://biocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&amp;object=ENTEROBACTIN">enterobactin</a>.   The latter contains multiple catechol rings  that tightly binds (i.e., chelates) ferric ions to form a soluble iron protein complex.   Hydroxamic acid and citrate also can  chelate a molecule of iron.<br />
+		The Fe<sup>3+</sup>-enterobactin complex  enters the cell periplasm by a substrate-specific outer membrane porin called <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=GENE&amp;object=EG10302">FhuA</a>.  Once the chelate complex is inside, it is then recognized by the cytoplasmic  membrane ABC transport system specific for Fe<sup>3+</sup>-enterobactin (<a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=CPLX0-1942">FhuBCD</a>) that in turn transports it to the cytoplasm.  After  entry, an enzyme named ferric reductase reduces  ferric iron (Fe<sup>3+</sup>) to ferrous iron (Fe<sup>2+</sup>). This causes  the release of the iron molecule from the siderophore so that it can be subsequently  incorporated into iron storage and other iron-containing proteins.  The newly released enterobactin molecule is  exported from the cell and reused.
+      </div>
+    </li>
+  </ul>
+  <li><strong>P-type ATPases.</strong>
+  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+    The P-type<strong> </strong>ATPase  sytems transport cations (i.e., positive charged metals) such as K<sup>+</sup> and Mg<sup>+2</sup> across the cytoplasmic membrane using ATP as the energy  supply.  A hallmark of this transport  system is the transient autophosphorylation of a conserved aspartate residue on  one of the proteins. This drives a conformational change in the transporter to  energize molecule uptake.  A well described  example in <em>E. coli</em> is the<u> KdpFABC </u>ATPase  for K<sup>+</sup> uptake. All four subunits of this transport system reside in  the cytoplasmic membrane where KdpB contains a large cytoplasmic extension  typical for P-type ATPases that binds and hydrolyzes ATP. The KdpA protein mediates  the import of K<sup>+</sup> ions buy a selective channel (KdpC) and KdpF somehow  aids in the transport process. 
+  </div></li>
+  <li><strong>Secondary transport systems. </strong>
+  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+    Also called <u>permeases</u> or <u>major  facilitators </u>(MF), the secondary transport systems are used to uptake many  types of sugars, amino acids, and inorganic ions into the cell. They are usually  composed of one membrane intrinsic protein called a permease that forms a highly  selective channel that transports the molecule. Energy to drive the uptake is  provided by an ion gradient of protons (pmf), or sometimes potassium or sodium  ions. The uptake of the substrate molecule is thus coupled to the movement of a  H<sup>+</sup> ion (or K<sup>+</sup> or Na<sup>+</sup>).  The energy released by dissipation of the ion  gradient provides the driving force for solute uptake. 
+    The transported molecule  is first recognized and bound by the permease protein at a site facing the  periplasmic face of the cytoplasmic membrane. The permease then undergoes a  conformational change supplied by the energy of the iron gradient which drives the  solute into the cell cytoplasm. Since energy is expended, permeases allow the  accumulation of their transported molecules to a much higher concentration  inside the cell relative to the cell exterior. The driving ion currency must be  regenerated by cell metabolism. 
+    Synthesis of a secondary  transporter (permease) is often controlled in response to the availability of  the substrate and whether the cell has sufficient need. 
+  </div>
+  <p>The two types of secondary transport systems are defined by  the directions of solute and ion movement (i.e., co-transported or antiported).</p>
+  <ul type="disc">
+    <li><strong>Symporters</strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable"> perform the co-transport of       a solute molecule along with the driving force ion. The physiological       direction of co-transport is usually into the cell. The <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=LACY-MONOMER">lactose permease</a> encoded by the <em>lacY</em> gene is one       extensively studied system. It imports one molecule of the sugar lactose       (against a proton concentration gradient which is low on the outside to       high on the inside). The entry of a single proton provides the energy to uptake one molecule of lactose which is rapidly metabolized after entry into the cell, thus enhancing the rate of solute uptake.
+  <p>The <strong>TRAP transporters (</strong>(<u>tr</u>i-partite <u>A</u>TP-independent <u>p</u>eriplasmic transporter) and the<strong> TTT transporters </strong>(<u>t</u>ri-partite <u>t</u>ri-carboxylate <u>t</u>ransporter) constitute a subfamily of the<strong> secondary transport system </strong>symporters. Both transport systems are  composed of three proteins, one of which is a periplasmic substrate binding  protein similar to that found in ABC transporters. <br />
+    The TRAP and TTT transporters appear to have evolved independently as  they display no sequence similarity.  One  example of a TRAP transport system is the <em>E.  coli</em> <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=TRANS-CPLX-203">YiaMNO</a> system for 2,3-diketo-L-gulonate  uptake. An example of an TTT-type system is the <em>Salmonella typhimurium </em>TctABC  transporter for citrate uptake. </p>
+      </div>
+    </li>
+    <li><strong>Antiporters</strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable"> transport a solute molecule (either from the outside of the cell to the inside, or in the reverse direction). However, the driving ion molecule (often a proton) moves in the opposite direction (i.e., the opposite of a sympoter).  Examples include the exchange of H<sup>+</sup> for Na<sup>+</sup> ions by the <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NHAB-MONOMER">Na<sup>+</sup>/H<sup>+</sup> antiporter</a>, which functions to balance the cytoplasmic pH in <em>E. coli</em> and other bacteria. Some antiporters can import a nutrient while exporting a waste product; e.g. the <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=NARK-MONOMER">NarK nitrite transporter</a> then couples the import of the respiratory substrate, nitrate, to the export of the toxic waste product, nitrite. </div>
+    </li>
+  </ul></li>
+  <li><strong>Group translocation systems.</strong>
+  <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+  <div class="expandable">
+    The group translocation systems for nutrient transport are  somewhat more complex than the other types of active transport systems. During  entry of the substrate molecule into the cell, it is chemically modified. The energy  supply that drives the uptake process is usually PEP (phosphoenolpyruvate) or  ATP. Two examples are described below.
+  </div>
+  <ul type="disc">
+    <li><strong>The <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?object=GO:0009401">phosphotransferase system</a> (PTS)</strong>. <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable"> In <em>E. coli,</em> the <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?object=GO:0009401">phosphotransferase system</a>s are employed to import several types of sugars (e.g., glucose, fructose, manitol). The high energy phosphate ester bond of PEP is used to drive uptake process where the sugar molecule is covalently modified to a sugar phosphate as the molecule enters the cell.
+        <p>The <em>E. coli</em> PTS system for glucose is  composed of five proteins. They are called HPr, Enzyme I, Enzyme IIA, IIB, and  IIC where enzyme IIC is an integral membrane subunit that forms the channel for  molecule uptake (i.e., glucose).  Enzymes  IIA and IIB are attached to Enzyme IIC at the inner surface of the membrane and  form a protein complex.  Enzyme I and Hpr  are both located in the cytoplasm and interact with the Enzyme IIABC complex that  together drive glucose into the cell. </p>
+        <p>The  overall transport of glucose seems overly complex but is actually rather  simple. Phosphate bond energy derived from PEP is transferred sequentially from  protein to protein to protein, and finally onto the glucose molecule to form  glucose-6-phosphate. </p>
+        <p>The  order of successive phosphorylation/ dephosphorylation events starts with the HPr  protein, and is followed by Enzyme I, Enzyme IIA and then Enzyme IIB. The only  protein that is not phosphorylated is Enzyme IIC. Enzyme IIB-phosphate is the  direct phosphoryl-donor to glucose.  <br />
+          <br />
+          The conversion  of glucose to glucose-6-phosphate is advantageous to the cell! Since the  transported molecule is structurally altered, it can no longer leave the cell via  Enzyme IIC. Second, the sugar modification generates the first intermediate of  the <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=PATHWAY&amp;object=GLYCOLYSIS">glycolysis</a> pathway.  This saves  the expenditure of an additional ATP molecule that would otherwise be needed to  make G-6-P from glucose using the glycolysis enzyme, glucokinase. </p>
+        <p>Enzymes  IIA, IIB, and IIC are specific for the type of sugar molecule transported (e.g.  glucose).  Interestingly, <em>E. coli</em> contains at least 10 distinct  Enzyme II complexes specific for other sugars (e.g., fructose, mannose,  manitol). Expression of the genes for enzymes IIA, IIB and IIC is activated by  the presence of its specific substrate. In contrast, the soluble PTS components,  Enzyme I and HPr, are not substrate-specific and are used interchangeably by  the different sugar specific PTS Enzyme II transporters.  </p>
+        <p>Enzyme  IIA also has cell regulatory role! It monitors the cell environment for glucose.  If the concentration of glucose decreases, phosphorylated Enzyme IIA subunit  accumulates and this activates the membrane-bound <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=ADENYLATECYC-MONOMER">adenylate cyclase</a> enzyme.  This results in catabolite repression of gene expression due to the buildup of cyclic-AMP in  the cell cytoplasm. </p>
+      </div>
+    </li>
+    <li><strong><em>E. coli</em></strong><strong> fatty acid transport. </strong> <a href="#_" class="moreorless"><span class="inl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+      <div class="expandable">Transport of long-chain fatty acids into <em>E. coli</em> occurs by a group translocation system distinct from the PTS type system described       above. Uptake of the fatty acid molecule presents several challenges since       they have very low solubility in aqueous environments and are readily       partitioned to the cytoplasmic membrane.  In <em>E.       coli,</em> the <a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=GENE&amp;object=EG10280">FadL</a>/<a target="_blank" href="http://biocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&amp;object=ACYLCOASYN-MONOMER">FadD</a> group translocation       system imports long-chain fatty acids using by a three step process. Long-chain       fatty acids enter the periplasm via the specialized outer membrane porin protein       called FadL. Once inside the periplasm, the fatty acids become protonated       which allows them to then diffuse into the cytoplasmic membrane. The       proton motive force drives this event.
+        <p>The FadD protein with a molecule of bound ATP traffics within the  cytoplasmic membrane until it recognizes and binds a fatty acid substrate  molecule. FadD then covalently attaches a Co-enzyme A molecule to the fatty  acid using the energy of ATP hydrolysis. FadD then delivers the fatty acid-CoA molecule  into the cytoplasm where it is further metabolized. </p>
+        <p>The mechanism of solute uptake differs from the ABC-type transporter  systems even though both processes use ATP as the energy source. Here, ATP  hydrolysis drives the attachment of a Co-enzyme A molecule to the incoming  fatty acid rather than phosphorylating it.  </p>
+      </div>
+    </li>
+  </ul></li>
+</ol>
+<p><strong><u>Summary:</u></strong></p>
+<ul>
+  <li>Nutrients  enter the cell via passive or active transport mechanisms. </li>
+  <li>Passive  transport mechanisms do not require energy input and involve simple diffusion  of solutes across the membrane. </li>
+  <li>Passive  transport can occur with or without involvement of a protein to facilitate  diffusion. </li>
+  <li>Active  transporters always require energy input and involve dedicated transport  proteins embedded in the cytoplasmic membrane. </li>
+  <li>The  three general types of active transporters include the ABC transporters, the secondary  transporters and the group translocation systems. </li>
+  <li>ABC  transporters employ a periplasmic solute binding protein, a membrane intrinsic  transport protein and an ATP hydrolyzing protein to drive solute uptake. </li>
+  <li>Secondary  transporters import solutes either by co-transport (symport) or by molecule exchange  (antiport of an ion).  The driving force  for most secondary transporters is the proton motive force; alternatively, the  gradient of the co- or anti- transported ion drives transport. </li>
+  <li>Group  translocation systems modify the solute upon cell entry. PEP or ATP provide the  energy for the modification reaction. </li>
+  <li>Molecules  are accumulated against an increasing concentration gradient during active  transport.<strong></strong> </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Credits: </strong></p>
+<p>Authored  by Robert Gunsalus and Imke Schroeder<br />
+  ©The  Escherichia coli Student Portal</p>
+<p>This  project acknowledges support from:<br />
+  Peter  Karp and coworkers at EcoCyc.org<br />
+  NIH  Grant Award GM077678 to SRI, International</p>
+<p>The UCLA  Department of MIMG</p>
+<script type="text/javascript">
+$("a.moreorless").click(function(){
+	if ($(this).next("div").css("display") == "none")
+	{
+		$(this).next("div").show(500);
+		if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+		else $(this).children("span").css("background-position","0 -30px");
+	} else {
+		$(this).next("div").hide(500);
+		$(this).children("span").css("background-position","0 0");
+	}
+});
+$("a.moreorlessall").click(function(){
+	if ($("div.expandable:eq(0)").css("display") == "none")
+	{
+		$("a.moreorless").each(function(){
+			$(this).next("div").show(500);
+			if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+			else $(this).children("span").css("background-position","0 -30px");
+		});
+	} else {
+		$("a.moreorless").each(function(){
+			$(this).next("div").hide(500);
+			$(this).children("span").css("background-position","0 0");
+		});
+	}
+});
+
+
+</script> 

@@ -1,0 +1,149 @@
+<style type="text/css">
+div.content ul.img_versions {
+	margin: 0;
+	padding: 0 74px;
+	list-style-type: none;
+	cursor: default;
+	width: auto;
+}
+div.content ul.img_versions li {
+	float:left;
+	width:100px;
+	cursor: pointer;
+	text-align:center;
+	background-color:#2d678d;
+}
+div.content ul.img_versions a, ul.img_versions a:visited
+{
+	display: block;
+	cursor: pointer;
+	background-color: #FFF;
+	margin:1px;
+	padding: 0.5em 0.75em;
+	color: #2d678d;
+	font-size:10px;
+	text-transform:uppercase;
+	text-decoration: none;
+}
+div.content ul.img_versions a:hover, ul.img_versions a:focus
+{
+	background-color: #2d678d;
+	color: #FFF;
+}
+
+</style>
+<!--[if gte IE 9]>
+<style type="text/css">
+a.moreorless span.inl {
+	font-size:10px;
+}
+</style>
+<![endif]-->
+<h2>AMINO ACID BIOSYNTHESIS: FORMATION OF GLYCINE  </h2>
+<p>The amino acid <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&object=GLY">glycine</a> is synthesized by a single step using L-serine as the starting molecule. Glycine, when available in the cell surroundings, can also be acquired by active transport. By doing do, the cell conserves energy and carbon intermediates for other needs. 
+
+<p><a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=PATHWAY&object=SER-GLYSYN-PWY">Glycine synthesis from L-serine:</a></p>
+
+<p>L-serine + tetrahydrofolate &rarr;  glycine + 5,10-methylene tetrahydrofolate + H<sub>2</sub>O </p>
+
+<center><img class="img_roll" src="sites/site_images/glycine11.gif" width="250" height="200" alt="">
+
+<ul class="img_versions">
+<li><a href="#_" id="12">Names</a></li>
+<li><a href="#_" id="13">Stick Str</a></li>
+<li><a href="#_" id="11">Space Filling</a></li>
+</ul></center>
+<p>&nbsp;</p>
+
+
+<h2>Key Concepts</h2>
+<ul>
+  <li><i>E. coli</i> synthesizes glycine in one step starting with the biosynthetic precursor <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=COMPOUND&object=SER">L-serine</a>.</li>
+</ul>
+<ul>
+  <li><i>E. coli</i> can also acquire glycine from the surrounding environment using two solute uptake systems.</li>
+</ul>
+<ul>
+  <li>As one of the major amino acids present in proteins, cells require large amounts of glycine for cell growth. </li>
+</ul>
+<ul>
+  <li>Glycine is also used as a precursor of several other biosynthetic pathways.</li>
+</ul>
+
+<p></p>
+
+
+<p><strong>I. The glycine biosynthesis pathway</strong></p>
+<p><i>E. coli</i> requires significant amounts of glycine since it constitutes one of the more abundant amino acids in proteins. In addition, glycine is an essential component of the peptidoglycan layer and serves as a one carbon donor for the biosynthesis of other cellular molecules such as methionine, thymidine, purines, hemes, certain lipids and others. </p>
+
+<p><a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=ENZYME-IN-PATHWAY&object=GLYOHMETRANS-CPLX">Serine hydroxymethyltransferase</a> (GlyA)</p>
+<p>This enzyme removes one carbon from the L-serine backbone. The enzyme, also named 5,10-methylene tetrahydrofolate:glycine hydroxymethyltransferase,  contains the cofactor pyridoxal- 5&rsquo;-phosphate.</p>
+
+<p></p>
+<p><strong>II. Uptake of glycine across the cell membrane</strong></p>
+<p>Glycine can be acquired from the cell surroundings by the <a target="_blank" href="http://ecocyc.org/ECOLI/NEW-IMAGE?type=ENZYME&object=CYCA-MONOMER">CycA</a> transporter. CycA is a broad substrate specificity symporter that that also imports serine and alanine with protons as the energy supply.  </p>
+
+<p></p>
+<p><strong>III. Regulation of glycine biosynthesis and transport</strong></p>
+<p><i>E. coli</i> is economical in conserving carbon and energy.  In the glycine pathway this is accomplished by transcriptional control of the <i>glyA</i> gene by two regulatory proteins, MetR and PurR. Expression of <i>cycA</i>, the gene for glycine transport, is repressed by the regulatory protein GcvA and by the small regulatory RNA GcvB when <i>E. coli</i> is grown in rich medium, where glycine is abundant.</p>
+
+
+<p><h2>Summary</h2></p>
+<ul>
+	<li>The essential amino acid glycine is synthesized in one step.</li>
+	<li>Glycine is needed for the synthesis of proteins, methionine, purines, lipids and thymidine.</li>
+	<li>One active transport systems may be used to acquire glycine from the cell surroundings.</li>
+	<li>Cells control glycine synthesis on the transcriptional level to coordinate production of precursors for other pathways.</li>
+</ul>
+
+
+<p>&nbsp;</p>
+<p><strong>Credits: </strong></p>
+<p>Authored by Robert Gunsalus and Imke Schr&#246;der<br />
+  &copy;The <em>Escherichia coli</em> Student Portal</p>
+<p>This project acknowledges support from:<br />
+  NIH Grant Award GM077678 to SRI, International<br />
+  Peter Karp and coworkers at EcoCyc.org<br />
+  The UCLA Department of MIMG</p>
+<!--<p><a href="#_" class="moreorlessall">Show/Hide All</a></p>-->
+<script type="text/javascript">
+$("a.moreorless").click(function(){
+	if ($(this).next("div").css("display") == "none")
+	{
+		$(this).next("div").show(500);
+		if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+		else $(this).children("span").css("background-position","0 -30px");
+	} else {
+		$(this).next("div").hide(500);
+		$(this).children("span").css("background-position","0 0");
+	}
+});
+$("a.moreorlessall").click(function(){
+	if ($("div.expandable:eq(0)").css("display") == "none")
+	{
+		$("a.moreorless").each(function(){
+			$(this).next("div").show(500);
+			if($(this).children("span").hasClass("bigblock")) $(this).children("span").css("background-position","0 -40px");
+			else $(this).children("span").css("background-position","0 -30px");
+		});
+	} else {
+		$("a.moreorless").each(function(){
+			$(this).next("div").hide(500);
+			$(this).children("span").css("background-position","0 0");
+		});
+	}
+});
+
+$("ul.img_versions a").click(function(){
+	var newsrc = "sites/site_images/glycine" + $(this).attr("id") + ".gif";
+	$(this).parent().parent().prev("img").attr("src", newsrc);
+//	$("#loaderimg2").show(0).delay(2000).hide(0);
+//	alert("img" + $(this).attr("id") + $(this).parent().parent().prev(".img_roll").attr("class"));
+});
+
+MM_preloadImages(
+'sites/site_images/aer12.gif',
+'sites/site_images/aer13.gif'
+);
+
+</script> 

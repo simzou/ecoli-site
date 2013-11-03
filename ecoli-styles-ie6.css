@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: url(images/background1.jpg) repeat-x #114065;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+/*	padding-right: 15px;
+	padding-left: 15px;  adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~this fixed width container surrounds the other divs~~ */
+
+.container {
+	width: 960px;
+	background: url(images/right1.jpg) no-repeat;
+	background-position: 930px 0px;
+	margin: 0 auto;
+	padding: 0;
+}
+.innerContainer {
+	width: 900px;
+	background: #FFF;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.header {
+	background-color:#FFF;
+	margin: 0px 0px -5px 0px;
+}
+
+/* 
+
+
+.sidebar1 {
+	margin-top: 10px;
+}
+*/
+.content {
+	background-color: #fff;
+	padding: 10px 0px;
+	width: 680px;
+	float: left;
+}
+
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px;
+}
+
+ul.nav {
+	list-style: none;
+	border-top: 0px solid #666;
+	margin-top:21px 0 15px 0;
+	display:none;
+}
+
+
+
+.footer {
+	padding: 0px;
+	margin: -5px 0px 0px 0px;
+	background: url(images/footer2.jpg) no-repeat #114065;
+	position: relative;
+	clear: both;*/
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+/* Content Styles */
+
+.contentClassWide {
+	margin:0;
+	padding-left: 50px;
+	padding-right: 50px;	
+}
