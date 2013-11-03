@@ -592,37 +592,6 @@ function toggleCse(){
         <?php
 	  mlinkseries('video_gallery',1,6);?>
       </ul>
-      <ul class="nav" id="glossarySide1">
-        <li><a href="#">N/A</a></li>
-      </ul>
-      <ul class="nav" id="glossarySide2">
-        <li><a href="#">N/A</a></li>
-      </ul>
-      <ul class="nav" id="glossarySide3">
-        <li><a href="#">N/A</a></li>
-      </ul>
-      <ul class="nav" id="toolsSide1">
-        <li><a href="#">N/A</a></li>
-      </ul>
-      <ul class="nav" id="toolsSide2">
-        <li><a href="#">N/A</a></li>
-      </ul>
-      <ul class="nav" id="toolsSide3">
-        <li><a href="#">N/A</a></li>
-      </ul>
-      
-      <!--    <ul class="nav" id="">
-      <li><a href="#"></a></li>
-    </ul>
-    <ul class="nav" id="">
-      <li><a href="#"></a></li>
-    </ul>
-    <ul class="nav" id="">
-      <li><a href="#"></a></li>
-    </ul>-->
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <div style="width:30px; height:300px;"><!--spacer--></div>
       <img src="images/quicklinks.gif" width="215" height="30" alt="">
       <div style="text-align:center"> 
       <a href="http://www.ecocyc.org" target="_blank">
