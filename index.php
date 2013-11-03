@@ -624,17 +624,16 @@ function toggleCse(){
       <p>&nbsp;</p>
       <div style="width:30px; height:300px;"><!--spacer--></div>
       <img src="images/quicklinks.gif" width="215" height="30" alt="">
-      <div style="text-align:right"> 
+      <div style="text-align:center"> 
       <a href="http://www.ecocyc.org" target="_blank">
       <img src="images/ecocycicon_color.gif" width="157" height="48" alt="">
       </a> 
       <a href="http://www.biocyc.org" target="_blank">
       <img src="images/biocycicon_color.gif" width="157" height="48" alt="">
-      </a> 
-	  <a href="http://www.metacyc.org" target="_blank">
+      </a> <a href="http://www.metacyc.org" target="_blank">
       <img src="images/metacycicon_color.gif" width="157" height="48" alt="">
       </a> 
-	  <a href="http://www.bsubcyc.org" target="_blank">
+      </a> <a href="http://www.bsubcyc.org" target="_blank">
       <img src="images/bsubcycicon_color.gif" width="157" height="48" alt="">
       </a> 
       </div>
