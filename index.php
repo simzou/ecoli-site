@@ -624,7 +624,7 @@ function toggleCse(){
       <p>&nbsp;</p>
       <div style="width:30px; height:300px;"><!--spacer--></div>
       <img src="images/quicklinks.gif" width="215" height="30" alt="">
-      <div style="text-align:right"> <a href="http://www.ecocyc.org"><img src="images/ecocycicon.gif" width="157" height="48" alt=""></a> <a href="http://www.biocyc.org"><img src="images/biocycicon.gif" width="157" height="48" alt=""></a> <a href="http://www.metacyc.org"><img src="images/metacyc.gif" width="157" height="48" alt=""></a> </div>
+      <div style="text-align:right"> <a href="http://www.ecocyc.org" target="_blank"><img src="images/ecocycicon.gif" width="157" height="48" alt=""></a> <a href="http://www.biocyc.org" target="_blank"><img src="images/biocycicon.gif" width="157" height="48" alt=""></a> <a href="http://www.metacyc.org" target="_blank"><img src="images/metacyc.gif" width="157" height="48" alt=""></a> </div>
     </div>
     <div class="content">
       <div id="cse"></div>
