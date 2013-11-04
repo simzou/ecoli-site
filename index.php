@@ -816,7 +816,7 @@ $("ul#exercisesMenuBar a").click(function(){
 	+'&copy;The <em>Escherichia coli</em> Student Portal 2012</p>'
 	+'<p></p><p>Animations from Surfrender </p><p></p>'
 	+'<p>This project acknowledges support from:<br />'
-	+'NIH Grant Award GM077678 to SRI, International<br />'
+	+'NIH Grant Award GM077678 to SRI International<br />'
 	+'Peter Karp and coworkers at EcoCyc.org<br />'
 	+'The UCLA Department of MIMG</p>')
 	}
