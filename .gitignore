@@ -1,2 +1,6 @@
-log/
+logs/
 dev/
+.bash_history
+.htaccess
+.viminfo
+visits.txt
